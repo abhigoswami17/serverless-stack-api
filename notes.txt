@@ -1,2 +1,20 @@
 s3 bucket = notes-img
-notesId: e0b4106c-7e0b-4b6e-b45f-358324b9e66e
+notesId: 4364a7c2-c3c2-4c1e-bfff-903b2c073007
+endpoints:
+  POST - https://kxoe6fdab2.execute-api.us-east-2.amazonaws.com/prod/notes
+  GET - https://kxoe6fdab2.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+  GET - https://kxoe6fdab2.execute-api.us-east-2.amazonaws.com/prod/notes
+  PUT - https://kxoe6fdab2.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+  DELETE - https://kxoe6fdab2.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+
+
+PoolId: us-east-2_3lzbkwkcf
+PoolARN: arn:aws:cognito-idp:us-east-2:981372865111:userpool/us-east-2_3lzbkwkcf
+
+App client id: 7an98uq87875v34t7elubf3scj
+
+Identity pool ID: us-east-2:d02a8dcf-fd20-43e4-8e9f-0d56604c642b
+
+Identity Pool ARN: arn:aws:cognito-identity:us-east-2:981372865111:identitypool/us-east-2:d02a8dcf-fd20-43e4-8e9f-0d56604c642b
+
+  
